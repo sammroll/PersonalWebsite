@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Geologica:wght@100..900&family=Outfit:wght@100..900&family=Silkscreen:wght@400;700&family=Sniglet:wght@400;800&family=Sour+Gummy:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/styles.css">
+
+        <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+        <script src="/scripts/scripts.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header"></div>
+            <div class="wrapper-2">
+                <!-------------------    
+                |    LEFT SIDEBAR   |
+                -------------------->
+                <div class="sidebar-left">
+                    <!-- NAVBOX -->
+                    <div class="navbox">
+                        <div class="navInnerGroup">
+                            <p>
+                                <center>Navigation</center>
+                            </p>
+                            <ol>
+                                <li><a href="/static/index.html">home</a></li>
+                                <li><a href="/static/temp1.html">page 2</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <!-------------------    
+                |    MAIN SECTION   |
+                -------------------->
+                <div class="main">
+                    <!-- WELCOME BOX -->
+                    <div class="welcome">
+                        <h1>Hello! Welcome!!</h1>
+                        <div class="welcome-content">
+                            <p>
+                                This is my personal website (๑￫ܫ￩)
+                                <br>
+                                There is still a lot of work to be done, but I hope you enjoy
+                                <br>
+                                your stay!
+                                <br>
+                            </p>
+                            <img src="/images/bearrunning.gif" alt="bearrunning">
+                        </div>
+                    </div>
+                </div>
+
+                <!--------------------    
+                |    RIGHT SIDEBAR   |
+                --------------------->
+                <div class="sidebar-right">
+                    <!-- MUSIC PLAYER -->
+                    <div class=winampholder>
+                        <div style="width:23px; height:38px; position:absolute; bottom:140px; left:130px; top:182px">
+                          <div id="winamp-container"></div>
+                          <script>
+                            const Winamp = window.Webamp;
+                            // All configuration options are optional.
+                            const webamp = new Webamp({
+                                // Optional.
+                                initialTracks: [
+                                {
+                                  metaData: {
+                                    artist: "Imogen Heap",
+                                    title: "A New Kind of Love",
+                                  },
+                                  url: "https://files.catbox.moe/uacu8h.mp3",
+                                },
+                                {
+                                  metaData: {
+                                    artist: "tommy february6",
+                                    title: "love is forever",
+                                  },
+                                  url: "https://files.catbox.moe/tlzbqd.mp3",
+                                },
+                                {
+                                  metaData: {
+                                    artist: "伊瀬 茉莉也",
+                                    title: "笑顔の法則",
+                                  },
+                                  url: "https://files.catbox.moe/khraie.mp3",
+                                },
+                                {
+                                    metaData: {
+                                    artist: "LiSA",
+                                    title: "一番の寶物",
+                                    },
+                                    url: "https://files.catbox.moe/838ub5.mp3",
+                                },
+                                {
+                                    metaData: {
+                                    artist: "Lovelyz",
+                                    title: "Ah-choo",
+                                    },
+                                    url: "https://files.catbox.moe/zowjao.mp3",
+                                },
+                                {
+                                    metaData: {
+                                    artist: "Doughnuts Hole",
+                                    title: "おとなの掟",
+                                    },
+                                    url: "https://files.catbox.moe/nkoraz.mp3",
+                                },
+                                {
+                                    metaData: {
+                                    artist: "ALI PROJECT",
+                                    title: "薔薇獄乙女",
+                                    },
+                                    url: "https://files.catbox.moe/qod5ns.mp3",
+                                },
+                                {
+                                    metaData: {
+                                    artist: "Baby V.O.X",
+                                    title: "우연",
+                                    },
+                                    url: "https://files.catbox.moe/vj7joo.mp3",
+                                },
+                                {
+                                    metaData: {
+                                    artist: "中谷美紀",
+                                    title: "Strange Paradise",
+                                    },
+                                    url: "https://files.catbox.moe/9mj83p.mp3",
+                                },
+                              ],
+                              initialSkin: {
+                                url: "https://files.catbox.moe/z0d637.wsz"
+                              },
+                            });
+                            webamp.renderWhenReady(document.getElementById('winamp-container'));
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+            
+            <div class="footer"></div>
+        </div>
+    </body>
+</html>

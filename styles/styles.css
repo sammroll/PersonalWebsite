@@ -1,0 +1,245 @@
+body {
+    background-image: url(../images/body.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    color: whitesmoke;
+    margin-left: 3px;
+    margin-top: 20px;
+    background-size: 200px;
+}
+
+/*header and footer*/
+.header {
+    background-image: url(../images/header.png);
+    height: 200px;
+    background-size: cover;
+    border: 5px inset rgb(156, 168, 241);
+    border-radius: 25px 25px 0 0;
+    
+
+    /*
+    margin-top: 15px;
+    border-radius: 10px;
+    */
+}
+.footer {
+    background-image: url(../images/footer.jpg);
+    height: 200px;
+    background-size: 300px;
+    border: 5px inset rgb(156, 168, 241);
+    border-radius: 0 0 25px 25px;
+
+    /*
+    margin-bottom: 15px;
+    border-radius: 10px;
+    */
+}
+
+/*contains everything*/
+.wrapper {
+    background-color: #e3f1f1;
+    border-radius: 25px;
+    margin: 30px auto;
+    overflow-x: auto; /*enables horizontal scrollbar*/
+    width: 1220px; /*sets width of wrapper so it doesn't change size if screen is smaller*/
+    font-family: "Sour Gummy", serif;
+    /*
+    padding-left: 15px;
+    padding-right: 15px;
+    */
+}
+
+/*Contains main and sidebar divs*/
+.wrapper-2 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    /*
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+
+    */
+}
+
+/* LINKS */
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(123, 7, 158);
+    text-decoration: underline;
+}
+
+/*SIDEBARS*/
+.sidebar-left {
+    background-image: url(../images/leftSidebar.jpg);
+    background-repeat: repeat;
+    background-size: 350px;
+    border: 5px inset rgb(156, 168, 241);
+    width: 300px;
+    font-family: "Sour Gummy", serif;
+    /*
+    margin: 5px;
+    border-radius: 10px;
+
+    */
+}
+
+.main {
+    background-image: url(../images/main.jpg);
+    background-repeat: repeat;
+    background-size: 200px;
+    border: 5px inset rgb(156, 168, 241);
+    width: 590px;
+
+    /*
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+    */
+}
+
+.sidebar-right {
+    background-image: url(../images/rightSidebar.jpg);   
+    background-repeat: repeat;
+    background-size: 350px; 
+    border: 5px inset rgb(156, 168, 241);
+    width: 300px;
+
+    /*
+    margin: 5px;
+    border-radius: 10px;
+
+    */
+}
+
+/****************************
+*                           *
+*       LEFT SIDEBAR        *
+*                           *
+*****************************/
+
+/***** NAVIGATION BOX  *****/
+.navbox {
+    background-image: url(../images/navigationBox.jpg);
+    font-size: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 200px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 400px;
+    border: 5px inset rgb(156, 168, 241);
+    border-radius: 5px;
+    font-size: medium;
+    color: black;
+    text-shadow: rgb(219, 15, 151) 1px 1px 10px;
+
+}
+
+.navInnerGroup {
+    padding-top: 90px;
+    padding-left: 15px;;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px 1px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    border: 5px dashed rgb(236, 108, 187);
+    border-radius: 50px;
+    width:140px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 11px;
+}
+
+/****************************
+*                           *
+*       MAIN SECTION        *
+*                           *
+*****************************/
+.welcome {
+    background-image: url(../images/mainIntro.jpg);
+    background-size: contain;
+    width: 550px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border: 5px inset rgb(156, 168, 241);
+}
+
+.welcome h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(150, 11, 104) 1px 1px 10px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.welcome-content {
+    display: flex;
+    gap: 40px; /* Add space between the text and the image */
+}
+
+.welcome-content p {
+    color: rgb(245, 104, 174);
+    text-shadow: rgb(150, 11, 104) 1px 1px 10px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.welcome-content img {
+    width: 150px;
+    height: 150px;
+}
+
+.working {
+    background-image: url(../images/workingBox.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    height: 400px;
+    margin: 20px 15px 10px 15px;
+    border: 5px inset rgba(255, 197, 224, 0.897);
+}
+
+.working p {
+    color: #dd1dbd;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.working img {
+    width: 200px;
+    height: 200px;
+    margin-left: 180px;
+}
+
+/****************************
+*                           *
+*       RIGHT SIDEBAR       *
+*                           *
+*****************************/
+.winampholder {
+    background-image: url(../images/musicHolder.jpg);
+    background-repeat: repeat;
+    width: 283px;
+    height: 364px;
+    margin-top: 15px;
+    margin-left: 6px;
+    border: 3px inset rgb(228, 169, 193);
+    box-shadow: 0px 0px 5px #dd1d47;
+    position: absolute;
+}
