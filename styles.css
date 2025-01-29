@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/body.jpg);
+    background-image: url(images/body.jpg);
     background-attachment: fixed;
     background-repeat: repeat;
     color: whitesmoke;
@@ -23,7 +23,7 @@ body {
     */
 }
 .footer {
-    background-image: url(../images/footer.jpg);
+    background-image: url(images/footer.jpg);
     height: 200px;
     background-size: 300px;
     border: 5px inset rgb(156, 168, 241);
@@ -77,7 +77,7 @@ a:hover {
 
 /*SIDEBARS*/
 .sidebar-left {
-    background-image: url(../images/leftSidebar.jpg);
+    background-image: url(images/leftSidebar.jpg);
     background-repeat: repeat;
     background-size: 350px;
     border: 5px inset rgb(156, 168, 241);
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .main {
-    background-image: url(../images/main.jpg);
+    background-image: url(images/main.jpg);
     background-repeat: repeat;
     background-size: 200px;
     border: 5px inset rgb(156, 168, 241);
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .sidebar-right {
-    background-image: url(../images/rightSidebar.jpg);   
+    background-image: url(images/rightSidebar.jpg);   
     background-repeat: repeat;
     background-size: 350px; 
     border: 5px inset rgb(156, 168, 241);
@@ -127,7 +127,7 @@ a:hover {
 
 /***** NAVIGATION BOX  *****/
 .navbox {
-    background-image: url(../images/navigationBox.jpg);
+    background-image: url(images/navigationBox.jpg);
     font-size: 10px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -171,7 +171,7 @@ li {
 *                           *
 *****************************/
 .welcome {
-    background-image: url(../images/mainIntro.jpg);
+    background-image: url(images/mainIntro.jpg);
     background-size: contain;
     width: 550px;
     height: 300px;
@@ -207,7 +207,7 @@ li {
 }
 
 .working {
-    background-image: url(../images/workingBox.jpg);
+    background-image: url(images/workingBox.jpg);
     background-repeat: no-repeat;
     background-size: 600px;
     height: 400px;
@@ -233,7 +233,7 @@ li {
 *                           *
 *****************************/
 .winampholder {
-    background-image: url(../images/musicHolder.jpg);
+    background-image: url(images/musicHolder.jpg);
     background-repeat: repeat;
     width: 283px;
     height: 364px;
