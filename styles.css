@@ -10,7 +10,7 @@ body {
 
 /*header and footer*/
 .header {
-    background-image: url(../images/header.png);
+    background-image: url(images/header.png);
     height: 200px;
     background-size: cover;
     border: 5px inset rgb(156, 168, 241);
